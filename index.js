@@ -18,7 +18,7 @@ function fetchBreed(selectedBreed) {
       }
     })
     .then(responseJson => displayResults(responseJson))
-    .catch(error => alert("Sorry, we can't get that breed at this time."))
+    .catch(error => console.log(error))
     }
 
 function getBreed() {
