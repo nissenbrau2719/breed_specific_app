@@ -26,6 +26,10 @@ form {
   align-items: center;
 }
 
+.error {
+  color: red;
+  font-weight: bold;
+}
 img {
   max-width: 100%;
 }
